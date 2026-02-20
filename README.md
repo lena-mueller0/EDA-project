@@ -3,7 +3,7 @@
 
 This repo contains
 - Notebook of how to [fetch the data for eda project](https://github.com/lena-mueller0/EDA-project/blob/main/1_Fetching_the_data_eda.ipynb)
-- [Eda jupyternotebook](), that contains the whole code and comments
+- [Eda jupyternotebook](https://github.com/lena-mueller0/EDA-project/blob/main/EDA2.ipynb), that contains the whole code and comments
 - [Eda presentation files](https://github.com/lena-mueller0/EDA-project/blob/main/EDA-Project-presentation.pdf)
 
 
