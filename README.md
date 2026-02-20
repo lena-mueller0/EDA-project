@@ -1,34 +1,23 @@
 [![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
+# EDA Project
 
-Template for creating ds simple projects
+This repo contains
+- Notebook of how to [fetch the data for eda project](https://github.com/lena-mueller0/EDA-project/blob/main/1_Fetching_the_data_eda.ipynb)
+- [Eda jupyternotebook](), that contains the whole code and comments
+- [Eda presentation files](https://github.com/lena-mueller0/EDA-project/blob/main/EDA-Project-presentation.pdf)
+
 
 ## Requirements
 
 - pyenv
 - python==3.11.3
 
-## Setup
+## Hypothesis:
+This repository focuses on developing three hypotheses and then testing them using data.
+The full process can be explored in the EDA Jupyter Notebook.
+The following three hypotheses were examined:
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+1. Houses in cities show higher price efficiency than houses in rural areas.
+2. Renovation has a smaller impact on property value in rural regions.
+3. Central locations have higher demand, reflected in geographic price patterns.
 
-* setting the python version locally to 3.11.3
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
-
-*Note: We do have the `requirements.txt` in the repository but please try to first install packages by yourself.*
-
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
-
-```bash
-pip freeze > requirements.txt
-```
-
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
-
-
---- 
-## In-Case of Failure
-If you fail to do the setup by yourself, then please revisit the previous repositories where you have done the setup and follow those steps.
